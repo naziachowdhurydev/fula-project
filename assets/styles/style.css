@@ -10,16 +10,17 @@ nav {
 
   display: flex;
   justify-content: space-between;
-  background: rgb(166, 166, 202);
+  background: rgb(192, 192, 248);
   padding: 10px 5px;
 }
 img {
   margin: 15px;
 }
 .nav-items ul {
-  margin-top: 20px;
+  padding: 10px;
   display: flex;
   column-gap: 25px;
+  align-items: center;
 }
 .nav-items ul li {
   list-style: none;
@@ -49,15 +50,18 @@ img {
     top:1px;
 } */
 .myButton {
-  background-color: #9febb3;
+  background-color: rgb(224, 211, 204);
   border-radius: 23px;
-  border: 2px solid #18ab29;
+  border: 2px solid #847675;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
+  color: #1d1919;
   font-family: Arial;
   font-size: 17px;
-  padding: 13px 31px;
+  padding: 10px 13px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #2f6627;
+}
+.myButton:hover{
+    background: rgb(244, 192, 166);
+
 }
